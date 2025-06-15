@@ -1,3 +1,3 @@
 git add -A
 git commit -m 'add testing changes'
-qwd
+git push
