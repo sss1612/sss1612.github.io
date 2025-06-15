@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: publish-surv-docs
 
 # Controls when the workflow will run
 on:
@@ -30,9 +30,4 @@ jobs:
         run: | 
           echo Hello, world!
           echo "Hello again!"
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git branch
