@@ -31,3 +31,4 @@ jobs:
           echo Hello, world!
           echo "Hello again!"
           git branch
+          echo "The sillyness has been seized"
